@@ -13,7 +13,7 @@ export default function Home() {
           <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> "  I am a Multilingual     Project Manager turned Full Stack Developer with a curiosity to learn
           and a drive for new experiences. My international background and my love for languages has
           provided me with the skills to communicate effectively in diverse environments and solve problems efficiently ".</p>
-          <a class="mb-5 font-bold italic hover:not-italic underline decoration-red-500" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank">
+          <a class="mb-5 font-bold italic hover:not-italic underline decoration-red-500" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank" rel="noreferrer">
             Resume
           </a>
         </div>
@@ -96,9 +96,9 @@ export default function Home() {
           <h1 class="mb-10 text-3xl font-serif">Contact</h1>
           <div class="flex mb-20 grid grid-cols-1 justify-items-center">
             <h2>Email: rod.raymond67@gmail.com</h2>
-            <h2>LinkedIn: <a href="https://www.linkedin.com/in/rod-raymond-281a0284/" target="_blank">Rod Raymond</a>
+            <h2>LinkedIn: <a href="https://www.linkedin.com/in/rod-raymond-281a0284/" target="_blank" rel="noreferrer">Rod Raymond</a>
             </h2>
-            <h2>GitHub: <a href="https://github.com/rraymond67" target="_blank">rraymond67</a></h2>
+            <h2>GitHub: <a href="https://github.com/rraymond67" target="_blank" rel="noreferrer">rraymond67</a></h2>
             
           </div>
 
