@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div class="bg-gradient-to-b from-stone-200 to--400">
       <Nav/>
-      <div class="mt-10 flex flex-col items-center pb-20">
+      <div class="drop-shadow-2xl mt-10 flex flex-col items-center pb-20">
         
         <img class="w-50 h-60 rounded-2xl shadow-lg"
         src='head.jpeg' alt='head shot of Rod Raymond'/>
         <div class="flex flex-col h-200 bg-slate-100 items-center">
-          <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> "  I am a Multilingual     Project Manager turned Full Stack Developer with a curiosity to learn
+          <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> "  I am a multilingual     project manager turned full stack developer with a curiosity to learn
           and a drive for new experiences. My international background and my love for languages has
           provided me with the skills to communicate effectively in diverse environments and solve problems efficiently ".</p>
           <a class="flex flex-row mb-5 hover:text-white pl-4 pr-4 bg-yellow-300 ps-4 py-2 rounded-lg font-bold italic hover:not-italic underline decoration-white" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank" rel="noreferrer">
@@ -22,11 +22,11 @@ export default function Home() {
         </div>
 
       </div>
-      <hr className="mb-20 mr-40 ml-40 dark:border-black-900" />
+      <hr class="mb-20 mr-40 ml-40 border-b-2 border-red-200 " />
     
-      <div id ="about" class="mb-10 flex flex flex-col items-center">
+      <div id ="about" class="mb-20 flex flex flex-col items-center">
         <h1 class="text-3xl underline font-serif">Skills</h1>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center drop-shadow-2xl gap-20 mt-10">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 justify-items-center drop-shadow-2xl gap-20 mt-10">
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="javascript icon" />
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react icon" />
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express icon"/>
@@ -37,13 +37,14 @@ export default function Home() {
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css icon"/>
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html icon"/>
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" alt="rails icon"/>
-            <img class="w-20 h-20" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="rails icon"/>
+            <img class="w-20 h-20" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="tailwindcss icon"/>
+            <img class="w-20 h-20" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Creative_Cloud.svg" alt="adobe icon"/>
          </div>
        </div>
 
-       <hr class="mb-20 mr-40 ml-40 dark:border-gray-800" />
+       <hr class="mb-20 mr-40 ml-40 border-b-2 border-red-200 " />
 
-       <div id="projects" class="mb-10 flex flex flex-col items-center">
+       <div id="projects" class="mb-20 flex flex flex-col items-center">
           <h1 class="text-3xl underline font-serif">Projects</h1>
           <div class="mt-10 sm:mr-10 sm:ml-10 md:mr-40 md:ml-40 flex grid grid-cols-1 justify-items-center">
             <div id="accordion-collapse" data-accordion="collapse">
@@ -93,7 +94,7 @@ export default function Home() {
         </div>
           </div>
 
-          <hr class="mb-20 mr-40 ml-40 dark:border-gray-700" />
+          <hr class="mb-20 mr-40 ml-40 border-b-2 border-red-200 " />
 
           <div id="contacts" class="mb-10 flex flex-col items-center">
           <h1 class="mb-10 text-3xl underline font-serif">Contacts</h1>
