@@ -3,7 +3,7 @@ import Nav from '../components/Nav.jsx'
 
 export default function Home() {
   return (
-    <div class="bg-gradient-to-b from-stone-200 to--400">
+    <div class="scroll-smooth bg-gradient-to-b from-stone-200 to--400">
       <Nav/>
       <div class="drop-shadow-2xl mt-10 flex flex-col items-center pb-20">
         
