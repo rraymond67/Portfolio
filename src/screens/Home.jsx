@@ -12,7 +12,7 @@ export default function Home() {
         <div class="flex flex-col h-200 bg-slate-100 items-center">
           <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> "  I am a multilingual     project manager turned full stack developer with a curiosity to learn
           and a drive for new experiences. My international background and my love for languages has
-          provided me with the skills to communicate effectively in diverse environments and solve problems efficiently ".</p>
+          provided me with the skills to communicate effectively in diverse environments and solve problems efficiently. "</p>
           <a class="flex flex-row mb-5 hover:text-white pl-4 pr-4 bg-yellow-300 ps-4 py-2 rounded-lg font-bold italic hover:not-italic underline decoration-white" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
