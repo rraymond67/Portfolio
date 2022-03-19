@@ -17,7 +17,8 @@ export default function Footer() {
         </li>
     </ul>
     <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Rod Raymond. All Rights Reserved.
-    </span>
+      </span>
+      <a class="text-xs text-white sm:text-center dark:text-gray-400" href="https://storyset.com/business" target="_blank" rel="noreferrer">Business illustrations by Storyset</a>
 </footer>
 
   )

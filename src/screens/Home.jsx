@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav.jsx'
 import Form from '../components/Form.jsx'
 import Footer from '../components/Footer.jsx' 
+import pdf from './Resume.pdf'
 
 export default function Home() {
   return (
@@ -11,13 +12,14 @@ export default function Home() {
         <hr class="mb-10 mr-40 ml-40 border-b-2 border-red-200 " />
       </div>
 
-      <div class="flex flex-col items-center pb-20">
-        <div class="flex flex-col h-200 bg-slate-100 items-center">
+      <div id ="about" class="flex flex-col items-center pb-10">
+        <div class="flex flex-col lg:ml-40 lg:mr-40 xl:ml-60 xl:mr-60 h-200 bg-slate-100 items-center">
           <img class="mt-10 w-50 h-60 rounded-2xl shadow-lg"
             src='head.jpeg' alt='head shot of Rod Raymond' />
-          <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> I am a multilingual project manager turned full stack developer with a curiosity to learn
+          <h1 class="mt-5 text-xl text-red-700 font-bold font-serif">Hi! My name is Rod Raymond</h1>
+          <p class="font-mono ml-20 mr-20 mb-10 text-center "> I am a multilingual project manager, video director, producer turned full stack developer with a curiosity to learn
           and a drive for new experiences.</p>
-          <a class="flex flex-row mb-5 hover:text-white pl-4 pr-4 bg-yellow-300 ps-4 py-2 rounded-lg font-bold italic hover:not-italic underline decoration-white" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank" rel="noreferrer">
+          <a class="flex flex-row mb-5 hover:text-white pl-4 pr-4 bg-yellow-300 ps-4 py-2 rounded-lg font-bold italic hover:not-italic underline decoration-white" href={pdf} target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
@@ -26,9 +28,9 @@ export default function Home() {
         </div>
 
       </div>
-      <hr class="mb-20 mr-40 ml-40 border-b-2 border-red-200 " />
+      <hr class="mb-10 mr-40 ml-40 border-b-2 border-red-200 " />
     
-      <div id ="about" class="mb-20 flex flex flex-col items-center">
+      <div  class="mb-20 flex flex flex-col items-center">
         <h1 class="text-3xl underline font-serif">Skills</h1>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 justify-items-center drop-shadow-2xl gap-20 mt-10">
             <img class="w-20 h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="javascript icon" />
@@ -60,7 +62,11 @@ export default function Home() {
             </h2>
             <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                 <p class="mb-2 text-gray-500 dark:text-gray-400">Life After General Assembly is a website for finding full-stuck materials. This web application is a great ressource for bootcamp graduates and developers alikes who are looking to futher their knowledge. Users will be able to navigate thru a list of courses and see comments about specific courses from the existing users who have signed up. Evey course will be categorized accordingly. In order to leave comments or add a new course, one will need log in/sign up.</p>
+                 <p class="mb-2 text-gray-500 dark:text-gray-400">Life After General Assembly is a website for finding full-stuck materials. This web application is a great ressource for bootcamp graduates and developers alikes who are looking to futher their knowledge.</p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  <span class="font-bold"> Technologies: </span>
+                  Javascript, ReactJS, CSS, HTML, Tailwind CSS, Heroku
+                 </p>
                 <p class="text-gray-500 dark:text-gray-400">Check out the website: <a href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline">L.A.G.A</a></p>
              </div>
            </div>
@@ -73,8 +79,12 @@ export default function Home() {
             </h2>
              <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                   <p class="mb-2 text-gray-500 dark:text-gray-400">WePay is an online commerce application. Its a place where you post items for sale and other users will be able to place bids. In order to place bids or post an item you must sign up. The search bar will help users filter through the long list of items for sale. Once they find the items they are interest in, they click on it and it will navigate them to the details page where they eill see the item's description and the list of bidders. Users who are not sign in will still be able to navigate the website but they wont be able to place bids or post items for sale.</p>
-                    <p class="text-gray-500 dark:text-gray-400">Check out the webiste: <a href="https://wepayrod.netlify.app" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline">WePay</a></p>
+                   <p class="mb-2 text-gray-500 dark:text-gray-400">WePay is an online commerce application. Using authentication, one can post items for sale and other users will be able to place bids.</p>
+                   <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  <span class="font-bold"> Technologies: </span>
+                  Javascript, Ruby-on-rails, TailwindCSS, HTML, Heroku, Netlify
+                 </p>    
+                <p class="text-gray-500 dark:text-gray-400">Check out the webiste: <a href="https://wepayrod.netlify.app" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline">WePay</a></p>
                 </div>
               </div>
 
@@ -86,8 +96,12 @@ export default function Home() {
             </h2>
            <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
             <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-               <p class="mb-2 text-gray-500 dark:text-gray-400">A react application where you can apply to the Hogwarts School of Witchcraft and Wizardry and choose which house to inlist in. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. If you dont feel confident about your application you can delete it (or edit it). You can also check a list of Alumni(You might get accepted or rejected)..</p>
-               <p class="text-gray-500 dark:text-gray-400">Check out the webiste: <a href="https://school-for-wizards.netlify.app/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" >Hogwarts School of Witchcraft and Wizardry</a></p>
+               <p class="mb-2 text-gray-500 dark:text-gray-400">A react application where you can apply to the Hogwarts School of Witchcraft and Wizardry and choose which house to inlist in.</p>
+               <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  <span class="font-bold"> Technologies: </span>
+                  Javascript, ReactJS, CSS, HTML, Netlify
+                 </p>
+                <p class="text-gray-500 dark:text-gray-400">Check out the webiste: <a href="https://school-for-wizards.netlify.app/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" >Hogwarts School of Witchcraft and Wizardry</a></p>
     </div>
   </div>
 </div>

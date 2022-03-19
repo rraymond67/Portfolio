@@ -8,16 +8,15 @@ export default function Nav() {
       </div>
       <ul class="flex flex-col gap-5 items-center" >
           <li>
-            <a href="#about" class="text-3xl font-bold hover:text-white underline decoration-white font-serif underline">About Me</a>
+            <a href="#about" class="text-3xl hover:text-4xl font-bold hover:text-white underline decoration-white font-serif underline">About Me</a>
             </li>
           <li>
-            <a href="#projects" class="text-2xl font-bold hover:text-white underline decoration-white font-serif underline">Projects</a>
+            <a href="#projects" class="text-2xl hover:text-3xl font-bold hover:text-white underline decoration-white font-serif underline">Projects</a>
           </li>
           <li>
-            <a href="#contacts" class="text-xl font-bold hover:text-white underline decoration-white font-serif underline">Contacts</a>
+            <a href="#contacts" class="text-xl hover:text-2xl font-bold hover:text-white underline decoration-white font-serif underline">Contacts</a>
           </li>
         </ul>
-        
     </div>
   )
 }
