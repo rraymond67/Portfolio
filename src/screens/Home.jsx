@@ -1,18 +1,22 @@
 import React from 'react'
 import Nav from '../components/Nav.jsx'
+import Form from '../components/Form.jsx'
+import Footer from '../components/Footer.jsx' 
 
 export default function Home() {
   return (
     <div class="scroll-smooth bg-gradient-to-b from-stone-200 to--400">
-      <Nav/>
-      <div class="drop-shadow-2xl mt-10 flex flex-col items-center pb-20">
-        
-        <img class="w-50 h-60 rounded-2xl shadow-lg"
-        src='head.jpeg' alt='head shot of Rod Raymond'/>
+      <div class="drop-shadow-2xl">
+        <Nav />
+        <hr class="mb-10 mr-40 ml-40 border-b-2 border-red-200 " />
+      </div>
+
+      <div class="flex flex-col items-center pb-20">
         <div class="flex flex-col h-200 bg-slate-100 items-center">
-          <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> "  I am a multilingual     project manager turned full stack developer with a curiosity to learn
-          and a drive for new experiences. My international background and my love for languages has
-          provided me with the skills to communicate effectively in diverse environments and solve problems efficiently. "</p>
+          <img class="mt-10 w-50 h-60 rounded-2xl shadow-lg"
+            src='head.jpeg' alt='head shot of Rod Raymond' />
+          <p class="font-mono ml-20 mr-20 mt-10 mb-10 text-center "> I am a multilingual project manager turned full stack developer with a curiosity to learn
+          and a drive for new experiences.</p>
           <a class="flex flex-row mb-5 hover:text-white pl-4 pr-4 bg-yellow-300 ps-4 py-2 rounded-lg font-bold italic hover:not-italic underline decoration-white" href="https://docs.google.com/document/d/15U0gGEivgyqzkuVeNr9956PAqxViFcNGjgBwFUqVjAA/edit?usp=sharing" target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -97,16 +101,12 @@ export default function Home() {
           <hr class="mb-20 mr-40 ml-40 border-b-2 border-red-200 " />
 
           <div id="contacts" class="mb-10 flex flex-col items-center">
-          <h1 class="mb-10 text-3xl underline font-serif">Contacts</h1>
-          <div class="flex mb-20 grid grid-cols-1 justify-items-center">
-            <h2>Email: rod.raymond67@gmail.com</h2>
-            <h2>LinkedIn: <a href="https://www.linkedin.com/in/rod-raymond-281a0284/" target="_blank" rel="noreferrer">Rod Raymond</a>
-            </h2>
-            <h2>GitHub: <a href="https://github.com/rraymond67" target="_blank" rel="noreferrer">rraymond67</a></h2>
-            
+        <h1 class="mb-10 text-3xl underline font-serif">Contacts</h1>
+        <div class="block w-2/5">
+          <Form/>
           </div>
-
-          </div>
+      </div>
+      <Footer />
     </div>
   )
 }
